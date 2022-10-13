@@ -1,0 +1,23 @@
+
+input{
+    color:blue;
+}
+.titulo-h1{
+    color: blueviolet;
+}
+
+[rancio="sii"]{
+    color:blue;
+}
+.h2-class p {
+    color: red;
+}
+.h2-class b span{
+    color: blue;
+}
+.h2-class b:hover{
+    color:aquamarine;
+}
+ b:hover{
+    color:aqua;
+}
