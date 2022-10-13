@@ -1,9 +1,11 @@
-#color-amarillo{
-    color: yellow;
+*{
+    padding: 0px;
+    margin: 0px;
 }
-.form__input--active{
-    color:blue;
-}
-.form__input{
-    color:red;
-}
+.contact-form{
+    font-size: 25px;
+    background-color: black;
+    width: 50vw;
+    height: 50vh;
+
+}    
