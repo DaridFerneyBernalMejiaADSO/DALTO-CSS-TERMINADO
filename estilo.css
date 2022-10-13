@@ -1,14 +1,13 @@
 *{
-    padding: 0px;
+    padding: 3px;
     margin: 0px;
     font-family: georgea;
     font-weight: 100;
 }
-  
-.contact-form__h2{
+ 
+*.contact-form__h2{
     font-size: 2em;
-    font-family:  'Oswald', sans-serif;
-    line-height:2;
-    font-weight: 700;
     color: red;
 } 
+
+
