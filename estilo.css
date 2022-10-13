@@ -1,13 +1,13 @@
 *{
-    padding: 3px;
-    margin: 0px;
     font-family: georgea;
     font-weight: 100;
+    font-size: 30px;
 }
- 
-*.contact-form__h2{
-    font-size: 2em;
-    color: red;
-} 
-
-
+h2{
+    display: inline;
+    padding:10 px;
+}
+p{
+    height:200px;
+    width: 100px;
+}
