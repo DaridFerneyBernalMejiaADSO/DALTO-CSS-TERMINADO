@@ -4,10 +4,19 @@
     font-size: 30px;
 }
 h2{
-    display: inline;
-    padding:10 px;
+    background-color: red;
+    display: inline-block;
+    padding :20px;
+    
 }
-p{
-    height:200px;
-    width: 100px;
+h3{
+    background-color: aqua;
+    display:inline-block;
+    padding:10px 30px 60px 10px ;
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+
+    
 }
