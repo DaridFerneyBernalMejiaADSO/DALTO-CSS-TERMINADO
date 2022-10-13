@@ -1,24 +1,9 @@
-
-.color-red{
-    color: red;
-}
-h1{
-    color:aqua ;
-}
 #color-amarillo{
     color: yellow;
 }
-
-h1{
-    color:yellow;
+.form__input--active{
+    color:blue;
 }
-
-.color-h1{
-    color: green;
-} 
-[rancio="color-blue"]{
-    color: blue;
-}
-h1{
-    color:grey !important
+.form__input{
+    color:red;
 }
