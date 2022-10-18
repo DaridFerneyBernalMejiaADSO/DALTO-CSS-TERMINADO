@@ -27,33 +27,22 @@ div{
     display: block;
 
 }
-.caja1{
-    background-color:green ;
+.contenedor{
+    width: 300px;
+    height: 300px;
+    background:green ;
+    margin: 40px;
+    position: relative;
 
 }
-.caja2{
+.hijo{
+    height: 120px;
+    width: 120px;
     background-color: blueviolet;
     position: relative;
-    top: 100px;
-    left: 50px;
-    z-index: 100;
-
- 
-
-
-}
-.caja3{
-    background-color:gray ;
-    position:relative;
-    z-index: 10;
- 
-}
-    
-.caja4{
-    background-color: orange;
-    position: static;
-    top: 100px;
-    left: 1000px;
-    /*no se mueve nada position static*/
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+   
 
 }
