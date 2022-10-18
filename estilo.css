@@ -13,9 +13,23 @@ h2{
     margin: 10px 20px;
     border-radius:2em ;
     border: 10px solid blue ;
+    border-color: #fff;
     box-shadow: 10px 10px 15px 5px   #000, 10px 10px 15px 5px   #000 ; 
     text-shadow: 4px 4px 5px #fff,4px 4px 5px #fff,4px 4px 5px #fff;
     transform: rotate(-30deg);
 
- 
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background: yellow ;
+    display: inline-block;
+
+}
+.caja3{
+    outline: 5px solid red;
+    position: relative;
+    
+
 }
