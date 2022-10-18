@@ -1,5 +1,5 @@
 *{
-    font-family: georgea;
+    font-family: 'Fuzzy Bubbles', cursive;
     font-weight: 100;
     font-size: 30px;
 }
@@ -21,15 +21,39 @@ h2{
 }
 
 div{
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     background: yellow ;
-    display: inline-block;
+    display: block;
+
+}
+.caja1{
+    background-color:green ;
+
+}
+.caja2{
+    background-color: blueviolet;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    z-index: 100;
+
+ 
+
 
 }
 .caja3{
-    outline: 5px solid red;
-    position: relative;
+    background-color:gray ;
+    position:relative;
+    z-index: 10;
+ 
+}
     
+.caja4{
+    background-color: orange;
+    position: static;
+    top: 100px;
+    left: 1000px;
+    /*no se mueve nada position static*/
 
 }
