@@ -4,7 +4,7 @@
     font-size: 30px;
 }
 
-h2{
+/*h2{
     background-color: rgb(122, 59, 59);
     display:inline-block;
     padding:100px ;
@@ -19,36 +19,55 @@ h2{
     transform: rotate(-30deg);
 
 }
-
+*/
 div{
 
-    background: yellow ;
+    background: rgb(0, 255, 119) ;
     display: block;
+    position: absolute;
+ 
 
+}
+div div {
+    height: 100px;
+    width: 75px;
+    background: yellow;
 }
 .contenedor{
     margin: 100px;
-    position: static;
+    border: 4px solid red;
+    position: relative;
+    margin: 50px auto;
+    height: 400px;
+    width: 400px;
+    
 }
 .caja1{
     background-color:orange ;
-    position:absolute;
+    bottom: 0px;
 
+  
 }
 .caja2{
     background-color: green;
-    position: absolute;
-    top:10px;
-    left: 10px;
+    right: 0;
+
 
 
 
 }
 .caja3{
     background-color: blueviolet ;
-    position: absolute;
-    opacity: 0.2;
+    right: 0;
+    bottom: 0;
 
-    
 
+}
+.caja4{
+    background-color: aqua;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
 }
