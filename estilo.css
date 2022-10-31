@@ -15,4 +15,5 @@
 }
 .caja:active{
     cursor: copy;
+    background-color: darksalmon;
 }
