@@ -3,14 +3,11 @@
     font-weight: 100px;
     font-size: 40px;
 }
-.caja1{
-    padding: 20px;
-    background-color: darkorchid;
-    color:#fff;
-    transition: background 0.5s ;
+a:link{
+    color:red;
+    display: block;
 }
-.caja1:hover{
-    padding: 20px;
-    background: slateblue;
-    color: #000;
+a:visited{
+    color:aqua;
+    display: block;
 }
