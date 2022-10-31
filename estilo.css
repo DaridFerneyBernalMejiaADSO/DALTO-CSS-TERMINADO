@@ -6,9 +6,14 @@
 .caja{
 
     margin: 25px;
+    width: 350px;
+    height: 350px;
 
 }
-.caja b:lang(ii){
-    background: blue;
-    padding: 20px;
+.caja img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    object-fit: cover;
+
 }
