@@ -6,7 +6,7 @@
 .caja{
 
     margin: 25px;
-    width: 350px;
+    width: 250px;
     height: 350px;
 
 }
@@ -15,5 +15,6 @@
     width: 100%;
     border: 2px solid red;
     object-fit: cover;
+    object-position: right;
 
 }
