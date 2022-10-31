@@ -10,11 +10,17 @@ form{
     padding: 100px;
     width: 50%;
 }
-input{
+b{
     padding: 6px;
     width: 100%;
 }
-input::selection{
-    color:red;
-    background-color: yellow;
+
+b::before{
+    content: "me suscribi";
+    color:#fff;
+}
+b::after{
+    content: "todo tendencia";
+    color: red;
+    
 }
