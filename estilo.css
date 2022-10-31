@@ -5,12 +5,10 @@
 }
 .caja{
 
-    background:lightblue;
     margin: 25px;
-    transition: background 0.5s, padding 0.5s;
 
 }
-.caja:focus{
+.caja b:lang(en){
     background: blue;
     padding: 20px;
 }
